@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import './App.css';
 /*These components can be added from other js files too.*/
 const Component1 = (props) => <div>
-  My Component 1
+  My Component 1<br/>
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus erat id condimentum scelerisque. Sed imperdiet facilisis erat et semper. Sed posuere ipsum at lacus hendrerit porttitor. Integer placerat lectus non ultricies luctus. Duis sed tristique magna. Sed id neque nisi. Ut pulvinar sapien a orci finibus vehicula. Sed fringilla posuere sodales. Aenean posuere leo est, maximus placerat est viverra ut. Maecenas a mauris ac risus tincidunt vestibulum eu lacinia urna. Donec at tempor lacus.
 
 Nunc id imperdiet ipsum. Praesent convallis ligula vel orci luctus vestibulum. Aliquam erat volutpat. Sed at sagittis quam. Sed gravida tincidunt laoreet. Vivamus sed sem viverra, faucibus metus ac, egestas nibh. In nulla justo, tristique et hendrerit in, vestibulum in arcu. Aenean condimentum ligula ut elit placerat consectetur. Cras finibus id arcu a placerat. Quisque augue lectus, convallis ac ultricies nec, mattis non urna. Pellentesque hendrerit purus eget convallis volutpat. In vitae imperdiet quam. Donec interdum dui in odio rutrum interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -13,10 +13,42 @@ Vestibulum venenatis purus non nunc auctor, sed gravida mauris molestie. Praesen
 
 Aliquam vulputate faucibus blandit. Aliquam at consequat mauris. Praesent sodales odio nec velit efficitur hendrerit ac a nunc. In et mi augue. Mauris pellentesque elit sed auctor pulvinar. Pellentesque vel facilisis turpis, ac rutrum arcu. Maecenas id magna ut felis ultricies hendrerit.
   </div>
-const Component2 = (props) => <div>My Component 2</div>
-const Component3 = (props) => <div>My Component 3</div>
-const Component4 = (props) => <div>My Component 4</div>
-const Component5 = (props) => <div>My Component 5</div>
+const Component2 = (props) => <div>My Component 2<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus erat id condimentum scelerisque. Sed imperdiet facilisis erat et semper. Sed posuere ipsum at lacus hendrerit porttitor. Integer placerat lectus non ultricies luctus. Duis sed tristique magna. Sed id neque nisi. Ut pulvinar sapien a orci finibus vehicula. Sed fringilla posuere sodales. Aenean posuere leo est, maximus placerat est viverra ut. Maecenas a mauris ac risus tincidunt vestibulum eu lacinia urna. Donec at tempor lacus.
+
+Nunc id imperdiet ipsum. Praesent convallis ligula vel orci luctus vestibulum. Aliquam erat volutpat. Sed at sagittis quam. Sed gravida tincidunt laoreet. Vivamus sed sem viverra, faucibus metus ac, egestas nibh. In nulla justo, tristique et hendrerit in, vestibulum in arcu. Aenean condimentum ligula ut elit placerat consectetur. Cras finibus id arcu a placerat. Quisque augue lectus, convallis ac ultricies nec, mattis non urna. Pellentesque hendrerit purus eget convallis volutpat. In vitae imperdiet quam. Donec interdum dui in odio rutrum interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+Sed eget lorem sit amet libero dapibus auctor ac ut nulla. Pellentesque eget pretium metus. Nulla neque lacus, vehicula sed pretium ac, tincidunt id mauris. Proin ultrices sagittis urna, ut aliquam purus fringilla ac. Vivamus quis purus dapibus, commodo dui ac, dapibus orci. Sed sed magna dictum, placerat ligula at, porttitor lorem. Donec eros lectus, feugiat eu mi quis, finibus placerat ex. Curabitur vitae sem ut nisi egestas scelerisque sed eu nibh. Aenean at dolor et elit porttitor ornare. Nulla luctus ante eget ligula elementum, in venenatis nisl fermentum. Ut interdum lobortis risus, at porta augue tempor porta. Donec ultrices nunc nulla, eu dictum tellus rhoncus sit amet. Sed tristique finibus dui ut auctor. Mauris dignissim risus nunc, sed tincidunt est tincidunt sed. Praesent vehicula massa id pharetra suscipit.
+
+Vestibulum venenatis purus non nunc auctor, sed gravida mauris molestie. Praesent venenatis in massa at tempus. Nunc a maximus dolor, in rhoncus nulla. Suspendisse feugiat mi eget mi eleifend eleifend nec sed augue. Mauris elementum ipsum vel lectus bibendum sagittis. Duis maximus, diam id imperdiet euismod, diam nulla faucibus felis, egestas tristique mauris urna pharetra lectus. Mauris placerat leo dui, id blandit justo feugiat consectetur. Phasellus lorem est, porta at accumsan in, dignissim bibendum dolor. Etiam posuere dapibus aliquam. Sed fermentum nulla neque, a pharetra magna ultricies ut. Morbi justo neque, tincidunt vitae risus ac, aliquam fermentum neque. Cras aliquet felis a leo fermentum, ut molestie leo sodales. Nullam justo urna, finibus in turpis sed, finibus iaculis metus. Proin consequat ac nunc vitae faucibus. Donec id arcu eget elit commodo ultricies nec eget lacus.
+
+Aliquam vulputate faucibus blandit. Aliquam at consequat mauris. Praesent sodales odio nec velit efficitur hendrerit ac a nunc. In et mi augue. Mauris pellentesque elit sed auctor pulvinar. Pellentesque vel facilisis turpis, ac rutrum arcu. Maecenas id magna ut felis ultricies hendrerit.</div>
+const Component3 = (props) => <div>My Component 3 <br></br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus erat id condimentum scelerisque. Sed imperdiet facilisis erat et semper. Sed posuere ipsum at lacus hendrerit porttitor. Integer placerat lectus non ultricies luctus. Duis sed tristique magna. Sed id neque nisi. Ut pulvinar sapien a orci finibus vehicula. Sed fringilla posuere sodales. Aenean posuere leo est, maximus placerat est viverra ut. Maecenas a mauris ac risus tincidunt vestibulum eu lacinia urna. Donec at tempor lacus.
+
+Nunc id imperdiet ipsum. Praesent convallis ligula vel orci luctus vestibulum. Aliquam erat volutpat. Sed at sagittis quam. Sed gravida tincidunt laoreet. Vivamus sed sem viverra, faucibus metus ac, egestas nibh. In nulla justo, tristique et hendrerit in, vestibulum in arcu. Aenean condimentum ligula ut elit placerat consectetur. Cras finibus id arcu a placerat. Quisque augue lectus, convallis ac ultricies nec, mattis non urna. Pellentesque hendrerit purus eget convallis volutpat. In vitae imperdiet quam. Donec interdum dui in odio rutrum interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+Sed eget lorem sit amet libero dapibus auctor ac ut nulla. Pellentesque eget pretium metus. Nulla neque lacus, vehicula sed pretium ac, tincidunt id mauris. Proin ultrices sagittis urna, ut aliquam purus fringilla ac. Vivamus quis purus dapibus, commodo dui ac, dapibus orci. Sed sed magna dictum, placerat ligula at, porttitor lorem. Donec eros lectus, feugiat eu mi quis, finibus placerat ex. Curabitur vitae sem ut nisi egestas scelerisque sed eu nibh. Aenean at dolor et elit porttitor ornare. Nulla luctus ante eget ligula elementum, in venenatis nisl fermentum. Ut interdum lobortis risus, at porta augue tempor porta. Donec ultrices nunc nulla, eu dictum tellus rhoncus sit amet. Sed tristique finibus dui ut auctor. Mauris dignissim risus nunc, sed tincidunt est tincidunt sed. Praesent vehicula massa id pharetra suscipit.
+
+Vestibulum venenatis purus non nunc auctor, sed gravida mauris molestie. Praesent venenatis in massa at tempus. Nunc a maximus dolor, in rhoncus nulla. Suspendisse feugiat mi eget mi eleifend eleifend nec sed augue. Mauris elementum ipsum vel lectus bibendum sagittis. Duis maximus, diam id imperdiet euismod, diam nulla faucibus felis, egestas tristique mauris urna pharetra lectus. Mauris placerat leo dui, id blandit justo feugiat consectetur. Phasellus lorem est, porta at accumsan in, dignissim bibendum dolor. Etiam posuere dapibus aliquam. Sed fermentum nulla neque, a pharetra magna ultricies ut. Morbi justo neque, tincidunt vitae risus ac, aliquam fermentum neque. Cras aliquet felis a leo fermentum, ut molestie leo sodales. Nullam justo urna, finibus in turpis sed, finibus iaculis metus. Proin consequat ac nunc vitae faucibus. Donec id arcu eget elit commodo ultricies nec eget lacus.
+
+Aliquam vulputate faucibus blandit. Aliquam at consequat mauris. Praesent sodales odio nec velit efficitur hendrerit ac a nunc. In et mi augue. Mauris pellentesque elit sed auctor pulvinar. Pellentesque vel facilisis turpis, ac rutrum arcu. Maecenas id magna ut felis ultricies hendrerit.</div>
+const Component4 = (props) => <div>My Component 4<br></br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus erat id condimentum scelerisque. Sed imperdiet facilisis erat et semper. Sed posuere ipsum at lacus hendrerit porttitor. Integer placerat lectus non ultricies luctus. Duis sed tristique magna. Sed id neque nisi. Ut pulvinar sapien a orci finibus vehicula. Sed fringilla posuere sodales. Aenean posuere leo est, maximus placerat est viverra ut. Maecenas a mauris ac risus tincidunt vestibulum eu lacinia urna. Donec at tempor lacus.
+
+Nunc id imperdiet ipsum. Praesent convallis ligula vel orci luctus vestibulum. Aliquam erat volutpat. Sed at sagittis quam. Sed gravida tincidunt laoreet. Vivamus sed sem viverra, faucibus metus ac, egestas nibh. In nulla justo, tristique et hendrerit in, vestibulum in arcu. Aenean condimentum ligula ut elit placerat consectetur. Cras finibus id arcu a placerat. Quisque augue lectus, convallis ac ultricies nec, mattis non urna. Pellentesque hendrerit purus eget convallis volutpat. In vitae imperdiet quam. Donec interdum dui in odio rutrum interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+Sed eget lorem sit amet libero dapibus auctor ac ut nulla. Pellentesque eget pretium metus. Nulla neque lacus, vehicula sed pretium ac, tincidunt id mauris. Proin ultrices sagittis urna, ut aliquam purus fringilla ac. Vivamus quis purus dapibus, commodo dui ac, dapibus orci. Sed sed magna dictum, placerat ligula at, porttitor lorem. Donec eros lectus, feugiat eu mi quis, finibus placerat ex. Curabitur vitae sem ut nisi egestas scelerisque sed eu nibh. Aenean at dolor et elit porttitor ornare. Nulla luctus ante eget ligula elementum, in venenatis nisl fermentum. Ut interdum lobortis risus, at porta augue tempor porta. Donec ultrices nunc nulla, eu dictum tellus rhoncus sit amet. Sed tristique finibus dui ut auctor. Mauris dignissim risus nunc, sed tincidunt est tincidunt sed. Praesent vehicula massa id pharetra suscipit.
+
+Vestibulum venenatis purus non nunc auctor, sed gravida mauris molestie. Praesent venenatis in massa at tempus. Nunc a maximus dolor, in rhoncus nulla. Suspendisse feugiat mi eget mi eleifend eleifend nec sed augue. Mauris elementum ipsum vel lectus bibendum sagittis. Duis maximus, diam id imperdiet euismod, diam nulla faucibus felis, egestas tristique mauris urna pharetra lectus. Mauris placerat leo dui, id blandit justo feugiat consectetur. Phasellus lorem est, porta at accumsan in, dignissim bibendum dolor. Etiam posuere dapibus aliquam. Sed fermentum nulla neque, a pharetra magna ultricies ut. Morbi justo neque, tincidunt vitae risus ac, aliquam fermentum neque. Cras aliquet felis a leo fermentum, ut molestie leo sodales. Nullam justo urna, finibus in turpis sed, finibus iaculis metus. Proin consequat ac nunc vitae faucibus. Donec id arcu eget elit commodo ultricies nec eget lacus.
+
+Aliquam vulputate faucibus blandit. Aliquam at consequat mauris. Praesent sodales odio nec velit efficitur hendrerit ac a nunc. In et mi augue. Mauris pellentesque elit sed auctor pulvinar. Pellentesque vel facilisis turpis, ac rutrum arcu. Maecenas id magna ut felis ultricies hendrerit.</div>
+const Component5 = (props) => <div>My Component 5 <br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus erat id condimentum scelerisque. Sed imperdiet facilisis erat et semper. Sed posuere ipsum at lacus hendrerit porttitor. Integer placerat lectus non ultricies luctus. Duis sed tristique magna. Sed id neque nisi. Ut pulvinar sapien a orci finibus vehicula. Sed fringilla posuere sodales. Aenean posuere leo est, maximus placerat est viverra ut. Maecenas a mauris ac risus tincidunt vestibulum eu lacinia urna. Donec at tempor lacus.
+
+Nunc id imperdiet ipsum. Praesent convallis ligula vel orci luctus vestibulum. Aliquam erat volutpat. Sed at sagittis quam. Sed gravida tincidunt laoreet. Vivamus sed sem viverra, faucibus metus ac, egestas nibh. In nulla justo, tristique et hendrerit in, vestibulum in arcu. Aenean condimentum ligula ut elit placerat consectetur. Cras finibus id arcu a placerat. Quisque augue lectus, convallis ac ultricies nec, mattis non urna. Pellentesque hendrerit purus eget convallis volutpat. In vitae imperdiet quam. Donec interdum dui in odio rutrum interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+Sed eget lorem sit amet libero dapibus auctor ac ut nulla. Pellentesque eget pretium metus. Nulla neque lacus, vehicula sed pretium ac, tincidunt id mauris. Proin ultrices sagittis urna, ut aliquam purus fringilla ac. Vivamus quis purus dapibus, commodo dui ac, dapibus orci. Sed sed magna dictum, placerat ligula at, porttitor lorem. Donec eros lectus, feugiat eu mi quis, finibus placerat ex. Curabitur vitae sem ut nisi egestas scelerisque sed eu nibh. Aenean at dolor et elit porttitor ornare. Nulla luctus ante eget ligula elementum, in venenatis nisl fermentum. Ut interdum lobortis risus, at porta augue tempor porta. Donec ultrices nunc nulla, eu dictum tellus rhoncus sit amet. Sed tristique finibus dui ut auctor. Mauris dignissim risus nunc, sed tincidunt est tincidunt sed. Praesent vehicula massa id pharetra suscipit.
+
+Vestibulum venenatis purus non nunc auctor, sed gravida mauris molestie. Praesent venenatis in massa at tempus. Nunc a maximus dolor, in rhoncus nulla. Suspendisse feugiat mi eget mi eleifend eleifend nec sed augue. Mauris elementum ipsum vel lectus bibendum sagittis. Duis maximus, diam id imperdiet euismod, diam nulla faucibus felis, egestas tristique mauris urna pharetra lectus. Mauris placerat leo dui, id blandit justo feugiat consectetur. Phasellus lorem est, porta at accumsan in, dignissim bibendum dolor. Etiam posuere dapibus aliquam. Sed fermentum nulla neque, a pharetra magna ultricies ut. Morbi justo neque, tincidunt vitae risus ac, aliquam fermentum neque. Cras aliquet felis a leo fermentum, ut molestie leo sodales. Nullam justo urna, finibus in turpis sed, finibus iaculis metus. Proin consequat ac nunc vitae faucibus. Donec id arcu eget elit commodo ultricies nec eget lacus.
+
+Aliquam vulputate faucibus blandit. Aliquam at consequat mauris. Praesent sodales odio nec velit efficitur hendrerit ac a nunc. In et mi augue. Mauris pellentesque elit sed auctor pulvinar. Pellentesque vel facilisis turpis, ac rutrum arcu. Maecenas id magna ut felis ultricies hendrerit.</div>
 const Component6 = (props) => <div>My Component 6</div>
 const Component7 = (props) => <div>My Component 7</div>
 const Component8 = (props) => <div>My Component 8</div>
@@ -123,17 +155,18 @@ class App extends Component{
     var paddingRight = (window.innerWidth - (300 + 110.5*this.state.activeItems.length))/this.state.activeItems.length
     console.log(paddingRight)
     var pRight;
-    if(paddingRight < 0){
+    var maxWidth;
+    if(paddingRight < 0 && paddingRight > -40){
       pRight = 40 + paddingRight
+    }
+    else if(paddingRight < -40 && paddingRight > -50){
+      maxWidth = paddingRight
+      pRight = 0
     }
     else{
       pRight = 40
+      maxWidth = 120
     }
-    /*
-    if(window.innerWidth - 300 < (110.5*this.state.activeItems.length)){
-      var paddingRight = (40 - ((window.innerWidth - 300 - 110.5*this.state.activeItems.length)/this.state.activeItems.length));
-      console.log(paddingRight) 
-    }*/
     console.log(window.innerWidth)
     return (
       <div className="App">
@@ -145,7 +178,7 @@ class App extends Component{
           <ul>
           {this.state.activeItems.map( item => {
             if(item == this.state.activeTab){
-              return(<li class="active tab">
+              return(<li class="active tab" style={{maxWidth: maxWidth}}>
               <a>
               <div class="leftTab" style={{paddingRight: pRight}}>
                 {component_heading[item]}  
@@ -157,7 +190,7 @@ class App extends Component{
             </li>)
             }
             else{
-              return(<li class="tab">
+              return(<li class="tab" style={{maxWidth: maxWidth}}>
               <a>
                 <div class="leftTab" style={{paddingRight: pRight}} onClick={() => this.handleItemClick(item)}>
                 {component_heading[item]}  
